@@ -1,0 +1,28 @@
+# File-file hasil kompilasi atau build
+*.class
+*.jar
+*.war
+/build/
+/dist/
+
+# File konfigurasi sensitif
+.env
+config.local.php
+
+# Log files
+*.log
+logs/
+
+# Dependencies folder
+node_modules/
+vendor/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.bak
